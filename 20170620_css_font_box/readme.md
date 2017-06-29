@@ -59,7 +59,11 @@ p{
     text-align: center;
 
     vertical-align: bottom;
-    /*行内元素之间的垂直对齐方式*/
+    /*行内元素之间的垂直对齐方式
+    top
+    middle
+    bottom    
+    */
 
     line-height: 32px;
     /*行高*/
