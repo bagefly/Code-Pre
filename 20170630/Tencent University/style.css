@@ -1,0 +1,75 @@
+html,body{
+    margin:0;
+    padding: 0;
+}
+
+/*style*/
+
+.gfather{
+    float: left;
+    width: 1370px;
+    height: 77px;
+    /*background-color: #ff4482;*/
+    position: relative;
+}
+
+.father{
+    float: left;
+    width: 567px;
+    height: 77px;
+    background: url("./images/logo.png") no-repeat;
+    background-position: 185px;
+}
+
+.mother{
+    float: left;
+    width: 567px;
+    height: 77px;
+    background: url("./images/tu_daohang.png") no-repeat;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left:567px;
+}
+
+.mother:hover{
+    background: url("./images/tu_daohang2.png") no-repeat;
+}
+
+.uncle{
+    float: left;
+    width: 332px;
+    height: 77px;
+    color: #b3c867;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+}
+
+.uncle a{
+    float: left;
+    color: #a1968c;
+    position: absolute;
+    margin: auto;
+    top: 5px;
+    right: 100px;
+    margin-right: 3px;
+}
+
+
+.uncle s{
+    float: left;
+    color: #a1968c;
+    position: absolute;
+    margin: auto;
+    top: 5px;
+    right: 100px;
+}
+
+.search{
+    position: absolute;
+    margin: auto;
+    top: 20px;
+    right: 120px;
+}

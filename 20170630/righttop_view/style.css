@@ -9,7 +9,7 @@ html,body{
     position: relative;
     width: 452px;
     height: 350px;
-    background-color: #878787;
+    background-color: #656565;
 }
 
 .son{
@@ -44,22 +44,29 @@ html,body{
 }*/
 
 .angel{
-    width: 29px;
-    height:30px;
+    width: 0px;
+    height:0px;
     position: absolute;
     margin: auto;
-    top: -29px;
-    right: -30px;
-    overflow: hidden;
+    /*top: -29px;
+    right: -30px;*/
+    /*overflow: hidden;*/
+    top: 0;
+    right: 0;
+    background: url("./image/ant2.jpg") no-repeat;
+    transition: all 0.55s;
+    background-position: center;
 }
 .son:hover>.angel{
-     background: url("./image/ant1.png") no-repeat;
+     /*background: url("./image/ant1.png") no-repeat;
      top: 0;
      right: 0;
-     transition: all 0.55s
+     transition: all 0.55s*/
      /*position: absolute;
      background-position: right top;
      background-repeat: no-repeat;
      */
+     width: 40px;
+     height: 40px;
 }
  

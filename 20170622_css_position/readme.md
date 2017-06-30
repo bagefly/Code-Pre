@@ -100,7 +100,24 @@ body::before,body::after,body:before,body:after{
     background-color: #f00;  
 }
 ```
+# cursor
+~~~css
+.box{
+    cursor:auto ;
+    /*自动*/
 
+    cursor:default ;
+    /*默认指针*/
+
+    cursor:pointer ;
+    /*手势*/
+
+    cursor:n-resize ;
+    /*拉伸*/
+
+    cursor:move;
+    /*移动*/
+}
 
 # 作业
 1. 熟练掌握三种position，以及三种居中方法，将第三种居中方法整理成一种通用的初始化css
