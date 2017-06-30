@@ -1,0 +1,65 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+/*style*/
+
+.father{
+    position: relative;
+    width: 452px;
+    height: 350px;
+    background-color: #878787;
+}
+
+.son{
+    width: 288px;
+    height: 188px;
+    background-color: #2FB26C;
+    text-align: center;
+    line-height: 188px;
+    color: #ffff00;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+/*.gson{
+    width: 39px;
+    height: 19px;
+    color: #ffff00;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font: 39px/19px "微软雅黑",Arial;
+    line-height: 188px;
+}*/
+
+.angel{
+    width: 29px;
+    height:30px;
+    position: absolute;
+    margin: auto;
+    top: -29px;
+    right: -30px;
+    overflow: hidden;
+}
+.son:hover>.angel{
+     background: url("./image/ant1.png") no-repeat;
+     top: 0;
+     right: 0;
+     transition: all 0.55s
+     /*position: absolute;
+     background-position: right top;
+     background-repeat: no-repeat;
+     */
+}
+ 
