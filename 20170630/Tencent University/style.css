@@ -1,75 +1,124 @@
+/*init*/
+
 html,body{
     margin:0;
     padding: 0;
 }
 
-/*style*/
-
-.gfather{
-    float: left;
-    width: 1370px;
-    height: 77px;
-    /*background-color: #ff4482;*/
-    position: relative;
+.guide .clear-float::after{
+    content: "";
+    display: block;
+    clear: both;
 }
 
-.father{
-    float: left;
+/*style*/
+
+.guide{
+    width: 1379px;
+    height: 77px;
+    /*background-color: #ff4482;*/
+    /*position: relative;*/
+    
+}
+
+.logo{
     width: 567px;
     height: 77px;
     background: url("./images/logo.png") no-repeat;
     background-position: 185px;
+    float: left;
 }
 
-.mother{
-    float: left;
+.branch{
     width: 567px;
     height: 77px;
     background: url("./images/tu_daohang.png") no-repeat;
-    position: absolute;
+    float: left;
+    /*position: absolute;
     margin: auto;
     top: 0;
-    left:567px;
+    left:567px;*/
 }
 
-.mother:hover{
+
+.branch>*{
+    height:77px;
+}
+
+.b1:hover{
     background: url("./images/tu_daohang2.png") no-repeat;
+    background-position: -100px;
+}
+.b1{
+    width: 120px;
+    float: left;
+}
+.b2:hover{
+    background: url("./images/tu_daohang2.png") no-repeat;
+    background-position: -200px;
+}
+.b2{
+    width: 110px;
+    float: left;
+}
+.b3:hover{
+    background: url("./images/tu_daohang2.png") no-repeat;
+    background-position: -300px;
+}
+.b3{
+    width: 110px;
+    float: left;
 }
 
-.uncle{
-    float: left;
-    width: 332px;
+
+.inquiry{
+    
+    width:100px;
     height: 77px;
-    color: #b3c867;
-    position: absolute;
+    /*position: absolute;
     margin: auto;
     top: 0;
-    right: 0;
+    right: 0;*/
+    float: left;
 }
 
-.uncle a{
-    float: left;
+/*.a{
+    position: absolute;
+    display: block;
+    margin: auto;
+    right: 55px;
+    margin-right: 6px;
+}*/
+
+.s{
     color: #a1968c;
     position: absolute;
     margin: auto;
-    top: 5px;
+    top: 10px;
     right: 100px;
-    margin-right: 3px;
-}
-
-
-.uncle s{
     float: left;
-    color: #a1968c;
-    position: absolute;
-    margin: auto;
-    top: 5px;
-    right: 100px;
 }
-
 .search{
+    height: 22px;
     position: absolute;
     margin: auto;
-    top: 20px;
-    right: 120px;
+    top: 40px;
+    right: 100px;
+    float: left;
+}
+
+.em{
+    width: 21px;
+    height: 21px;
+    background-image:url("./images/magnifier.png");
+    position: absolute;
+    right: 2px;
+    top: 4px;
+    float: left;
+}
+
+.ads{
+    width: 1379px;
+    height: 358px;
+    background-image:url("./images/ads.jpg");
 }
