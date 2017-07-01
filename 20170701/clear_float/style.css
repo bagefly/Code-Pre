@@ -1,0 +1,44 @@
+/*init*/
+
+html,body{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.clear-top::before{
+    content: "";
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+
+/*
+.clear-float::after{
+    content: "";
+    display: block;
+    clear:both;
+}*/
+
+/*style*/
+
+.bigger{
+    width: 525px;
+    height: 400px;
+    background: #ff4654;  
+}
+
+.big{
+    width: 75px;
+    height: 75px;
+    background: #ff4;
+    float: left; 
+}
+.lap{
+    width: 75px;
+    height: 75px;
+    background: #f2f;
+    float: right;
+}
+

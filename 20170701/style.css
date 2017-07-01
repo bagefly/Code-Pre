@@ -1,0 +1,22 @@
+
+/*style*/
+
+.mother>div.info {
+    color:#f00
+}
+
+.mother>h1.title{
+    color:#00f
+}
+.uncle>*.jack{color:#f00}
+
+.uncle .son.jack{color:#f00}
+
+
+.father .son.son1 + * {color: #f00}
+
+#id,.class
+
+.grand-father son1,.grand-father son2{color: #ff0;}
+
+.grand-father:hover>.father.father2>.son2{background: #f00}
