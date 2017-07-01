@@ -1,0 +1,27 @@
+/* init */
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.mtopbug::before{
+    content:" ";
+    display: block;
+    overflow: hidden;
+}
+
+/* style */
+.father{
+    width: 500px;
+    height: 500px;
+    background: #2f5;
+}
+.father .son{
+    width: 30px;
+    height: 30px;
+    background: #ff0;
+    /*border-style: solid;
+    border-color:#f00 #230045 #568900 #00f;*/
+    padding: 5px 6px 20px 3px;
+    margin: 50px;
+}

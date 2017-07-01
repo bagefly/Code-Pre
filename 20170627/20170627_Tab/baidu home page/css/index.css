@@ -1,0 +1,59 @@
+/*通用属性*/
+*{
+    padding:0;
+    margin:0;
+}
+em{
+    font-style:normal;
+}
+b{
+    font-weight:normal;
+}
+s{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+
+/*头部的样式*/
+header{
+    width: 100%;
+    height: 32px;
+    border-bottom: 1px solid #f2f2f2;
+    background-color: orange;
+}
+
+.user{
+   float:  left;
+   height: 32px;
+   line-height: 32px;
+   font-size: 14px;
+}
+.user em{
+    display: inline-block;
+    width: 19px;
+    height: 19px;    
+    background: url(../image/a1.png) no-repeat;
+    position :relative;
+    top:4px;
+    margin-left: 3px;
+}
+.user s{
+    margin-left: 7px;
+    margin-right: 10px;
+}
+.user b{
+    color: #bad60d;
+    margin:0 3px;
+}
+.user a{
+    color:#585858;
+    margin-right: 17px;
+}
+.nav{
+    margin-left: 14px
+}
+.nav{
+    float: right；
+}

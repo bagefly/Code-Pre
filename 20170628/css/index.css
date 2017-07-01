@@ -1,0 +1,32 @@
+/*通用属性*/
+*{
+    padding:0;
+    margin:0;
+}
+em{
+    font-style:normal;
+}
+
+/*头部的样式*/
+header{
+    width: 100%;
+    height: 32px;
+    border-bottom: 1px solid #f2f2f2;
+    background-color: #f2f3f4;
+}
+
+.user{
+   float:  left;
+   height: 32px;
+   line-height: 32px;
+   font-size: 14px;
+}
+.user em{
+    display: inline-block;
+    width: 26px;
+    height: 26px;    
+    background: url(../image/baidu.png) no-repeat;
+    position :relative;
+    top:4px;
+    margin-left: 3px;
+}

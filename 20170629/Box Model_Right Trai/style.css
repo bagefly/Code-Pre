@@ -1,0 +1,15 @@
+/* style */
+.father{
+    width: 148px;
+    height:148px;
+    background: #ffff00
+}
+.father .son{
+    /*border-width: 148px;
+    height: 0;
+    border-style: solid;
+    border-color:#f00 #ffffff #ffffff #f00;*/
+    border-width: 0px 74px 148px 74px;
+    border-style: solid;
+    border-color:#f00 #ffffff #ffffff #f00
+}

@@ -1,0 +1,14 @@
+/*style样式*/
+.box{
+    border: 2.25px solid#ff0023;color: #004578
+}
+
+.name{
+    height: 20px
+}
+.table{
+    color: #f0f678
+}
+.table :hover{
+    background-color: #ff0023
+}

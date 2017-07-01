@@ -1,0 +1,15 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+/*style*/
+.box{
+    width: 142px;
+    height: 86px;
+    background-image:url("./image/gray.png");
+    background-position: -228px 0;
+}
+.box:hover{
+    background-image:url("./image/none_gray.png");
+}
