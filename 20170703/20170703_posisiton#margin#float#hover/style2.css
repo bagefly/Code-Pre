@@ -1,0 +1,97 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+/*style*/
+
+.father{
+    width: 300px;
+    height: 300px;
+    background: #f00;
+}
+
+.father>div,.father>div>div{
+    width : 25%;
+    height: 25%;
+    margin: 12.5%;
+    /*background: #00ff00;*/
+    float: left;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    /*transition:all 0.55s;*/
+    overflow: hidden;
+}
+.father>div>div{
+    background: #ff0;
+}
+
+.father:hover>*{ 
+    transition:all 3s;
+}
+.father:hover>.son1,.father:hover .sister1{
+    /*top: -20px;
+    left:-20px;*/
+    left:50%;
+}
+
+.father:hover>.son2,.father:hover .sister2{
+    /*top: -20px;
+    left:20px;*/
+    top:50%;
+}
+
+.father:hover>.son3,.father:hover .sister3{
+    /*top: 20px;
+    left:-20px;*/
+    top:-50%;
+}
+
+.father:hover>.son4,.father:hover .sister4{
+    /*top: 20px;
+    left:20px;*/
+    left:-50%;
+}
+
+/*.father:hover .sister1{
+    top: -10px;
+    left:-10px;
+}
+
+.father:hover .sister2{
+    top: -10px;
+    left:10px;
+}
+
+.father:hover .sister3{
+    top: 10px;
+    left:-10px;
+}
+
+.father:hover .sister4{
+    top: 10px;
+    left:10px;
+}*/
+
+/*.son1:hover{
+  
+}
+
+.son2:hover{
+  
+    left: 40px;
+}
+
+.son3:hover{
+    left: 0px;
+    top: 40px;
+   
+}
+
+.son4:hover{
+    left:40px;
+    top:40px;
+}*/

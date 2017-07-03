@@ -1,0 +1,37 @@
+html,body{
+    margin:0;
+    padding: 0;
+}
+
+/*style*/
+
+.c{
+    width:20px;
+    height:20px;
+    position: relative;
+}
+body>div:hover *{
+    left: 100%;
+}
+body>.c{
+    background-color: #f00
+}
+
+body>*>.c{
+    background-color: #ffa500
+}
+body>*>*>.c{
+    background-color: #ff0
+}
+body>*>*>*>.c{
+    background-color: #009877
+}
+body>*>*>*>*>.c{
+    background-color: #00ff00
+}
+body>*>*>*>*>*>.c{
+    background-color: #0000ff
+}
+body>*>*>*>*>*>*>.c{
+    background-color: #c0f
+}
