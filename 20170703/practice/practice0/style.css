@@ -1,0 +1,51 @@
+html,body{
+    margin:0;
+    padding: 0;
+}
+
+/*style*/
+
+/*.contanier{
+    width:30px;
+    height:30px;
+    background-color: red
+}*/
+.contanier{
+    position: relative;
+}
+.contanier>.tab.tab1,.contanier>.tab.tab2{
+    width:50px;
+    height: 20px;
+    float: left;
+}
+
+.tab.tab1{
+    background-color: green;
+
+}
+.tab.tab2{
+    background-color: red
+}
+.contanier>.content1{
+    width: 100px;
+    height: 150px;
+    background-color: green;
+    position:absolute;
+    top: 20px;
+    z-index: 10;
+
+}
+.contanier>.content2{
+    width: 100px;
+    height: 150px;
+    background-color: red;
+    position:absolute;
+    top: 20px;
+}
+.tab.tab2:hover+.content,.content2:hover{
+    z-index: 11;
+    /*div间不能有缝隙*/
+}
+/*.content2:hover{
+    z-index: 11;
+}*/
