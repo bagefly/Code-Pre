@@ -5,3 +5,123 @@ html,body{
 
 /*style*/
 
+.guide::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.guide{
+    width: 1350px;
+    height: 42px;
+    background-color: #2577e3;
+    position: relative;
+
+}
+.guide>div{
+    color: white;
+    float: left;
+    margin-left: 12px;
+    position: relative;
+    top: 8px;
+}
+.angle{
+    width: 0px;
+    height: 0px;
+    border: solid;
+    border-width: 4px 4px 8px 4px;
+    border-color: #fff #2577e3 #2577e3 #2577e3;
+    margin-top: 10px;
+}
+.angle1{
+    width: 0px;
+    height: 0px;
+    border: solid;
+    border-width: 0px 13px 13px 13px;
+    border-color: #2577e3 #2577e3 #2577e3 #2577e3;
+    border-top: 0px;
+}
+.text1{
+    width: 42px;
+    height: 42px;
+    left: 10px;
+}
+.text15{
+    width: 160px;
+    height:42px;
+    background: #ff9913;
+    line-height: 20px;
+    font-size: 14px;
+    margin-top: -8px;
+}
+.homeguide{
+    width: 1032px;
+    height: 42px;
+    background-image: url("./image/home_guide.png")
+}
+.content{
+    width: 1032px;
+    height: 42px;
+    display: none;
+}
+.text2:hover>.content{
+    display:  block;
+    border-right:solid #2577e3;
+    border-bottom:solid #2577e3;
+    border-left:solid #2577e3;
+    background: white;
+    position: absolute;
+    top: 34px;
+    left: -66px;
+}
+.text3:hover>.content{
+    display:  block;
+    border-right:solid #2577e3;
+    border-bottom:solid #2577e3;
+    border-left:solid #2577e3;
+    background: white;
+    position: absolute;
+    top: 34px;
+    left: -130px;
+}
+.text2:hover> .angle1,.text3:hover> .angle1{
+     border-color: #2577e3 #2577e3 #fff #2577e3;
+}
+.category{
+    width: 581px;
+    height:294px;
+    background: #fff;
+}
+.kind{
+    width: 90px;
+    height:42px;
+    background: #2577e3;
+    color: #fff;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border-bottom: 1px dashed #fff;
+    border-left: 3px solid #ff9915;
+}
+.substance6+.kind{
+    border-bottom: 0px dashed #fff;
+}
+.substance1{
+    width: 471px;
+    height: 20px;
+    float: left;
+    position: absolute;
+    top: 100px;
+    left: 110px;
+}
+.substance2{
+    width: 471px;
+    height: 20px;
+    float: left;
+    position: absolute;
+    top: 100px;
+    left: 110px;
+}
+.kind1:hover>.substance1{
+    display: block;
+}
+
