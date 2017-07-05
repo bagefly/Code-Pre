@@ -1,0 +1,15 @@
+html,body{
+    margin:0;
+    padding: 0;
+}
+
+/*style*/
+.left{
+    width: 100px;
+    height:50px;
+    position: absolute;
+}
+.center{
+    height: 50px;
+    margin-left: 100px;
+}

@@ -1,0 +1,37 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+/*style*/
+.glass{
+   
+    position: relative;
+}
+.glass>*{
+     height: 50px;
+    
+}
+.left{
+    
+    margin-right: 25px;
+    position:absolute;
+    left: 0;
+    right: 50%;
+    background: #f00;
+}
+.mid{
+
+    width: 50px;
+    position: absolute;
+    background: #ff0;
+    right: 0;
+    left: 0;
+    margin:0 auto;
+}
+.right{
+    margin-left: 25px;
+    position:absolute;
+    right: 0;
+    left:50%;
+    background: #00f;
+}
