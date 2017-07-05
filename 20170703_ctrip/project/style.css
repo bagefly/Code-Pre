@@ -102,6 +102,7 @@ html,body{
     border-bottom: 1px dashed #fff;
     border-left: 3px solid #ff9915;
 }
+
 .substance6+.kind{
     border-bottom: 0px dashed #fff;
 }
