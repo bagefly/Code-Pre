@@ -16,12 +16,14 @@ html,body{
     background: #2577e3;
 }
 .nav{
-    width: 980px;
+    width: 1182px;
     height: 40px;
     background: #2577e3;
     font: initial;
     position: absolute;
     margin: 0 auto;
+    right: 0;
+    left: 0;
 }
 .nav>.tab{
     height: 40px;
@@ -31,10 +33,12 @@ html,body{
     display: inline-block;
     line-height: 40px;
     margin-right: 20px;
+    left: 0px;
+    right: 0px;
     /*position: relative;*/
 }
 .nav>.tab1{
-    width: 32px;
+    
     height: 40px;
     float: left;
     color:#fff;
@@ -42,7 +46,6 @@ html,body{
     display: inline-block;
     line-height: 40px;
     margin-right: 20px;
-    margin-left: 86px;
 }
 /*.nav .angle{
     border: solid;
@@ -81,31 +84,69 @@ html,body{
     margin-left: 10px;
     display: none;
 }*/
-.nav .content{
+.nav .content{ 
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    z-index: 0;
+}
+
+.nav .tab:hover>.content{
     color: rgb(51, 51, 51);
     background: #fff;
-    
     height:40px;
-    position: absolute;
     border-top: none;
     border-right: 1px solid #2577e3;
     border-bottom: 1px solid #2577e3;
     border-left: 1px solid #2577e3;
-    left: 0px;
+    z-index: 200;
 }
-.nav .tab:hover>.angle_down{
-    display: block;
-}
-.nav .tab:hover>.content{
-    border: solid;
-    border-color: #2577e3 #2577e3 #fff #2577e3;
-    border-width: 0px 8px 8px 8px;
-    position: absolute;
-    top: 32px;
-    margin-left: 10px;
-}
-/*.nav_tab{
+.nav_tab{
     width: 1032px;
     height: 42px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     background: url("./image/nav_tab.png") no-repeat;
-}*/
+    z-index: 100;
+}
+/*banner part*/
+.banner{
+    width: 581px;
+    height: 294px;
+    background: red;
+    position: absolute;
+    top: 80px;
+}
+.banner_tab{
+    width: 90px;
+    height: 42px;
+    color: #fff;
+    background: #2577e3;
+}
+.banner_tab>span{
+    width: 60px;
+    display: inline-block;
+    line-height: 42px;
+    border-bottom: 1px dashed #fff; 
+    position: absolute;
+    margin-left: 13px;
+}
+.banner_tab:hover{
+    border-left: 3px solid #ff9913;
+    background: #fff;
+    color: #2577e3;
+}
+.banner .content{
+    width: 491px;
+    height: 294px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+.banner_tab:hover>.content{
+    background: #0f0;
+    z-index: 100;
+}

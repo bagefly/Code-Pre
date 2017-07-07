@@ -2,7 +2,7 @@
 
 ## 第一组 方向属性 top right bottom left
 
-## 第二组 margin   相当于relativ 
+## 第二组 margin   相当于relative 
  
 ## 第三组 with height 可以用方向属性解决
 
