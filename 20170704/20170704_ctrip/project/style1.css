@@ -32,7 +32,8 @@ html,body{
     text-align: center;
     display: inline-block;
     line-height: 40px;
-    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     left: 0px;
     right: 0px;
     /*position: relative;*/
@@ -88,7 +89,7 @@ html,body{
     left: 0px;
     right: 0px;
     position: absolute;
-    z-index: 0;
+    display: none;
 }
 
 .nav .tab:hover>.content{
@@ -99,7 +100,8 @@ html,body{
     border-right: 1px solid #2577e3;
     border-bottom: 1px solid #2577e3;
     border-left: 1px solid #2577e3;
-    z-index: 200;
+    display: block;
+    z-index: 100;
 }
 .nav_tab{
     width: 1032px;
@@ -109,13 +111,12 @@ html,body{
     right: 0;
     margin: 0 auto;
     background: url("./image/nav_tab.png") no-repeat;
-    z-index: 100;
+    z-index: 0;
 }
 /*banner part*/
 .banner{
     width: 581px;
     height: 294px;
-    background: red;
     position: absolute;
     top: 80px;
 }
@@ -147,6 +148,50 @@ html,body{
     z-index: 0;
 }
 .banner_tab:hover>.content{
-    background: #0f0;
     z-index: 100;
+}
+.banner_tab:hover .con_tab{
+    width: 453px;
+    height: 20px;
+    text-align: center;
+    border-bottom: 2px solid #d8d8d8;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.banner_tab:hover .con_tab span{
+    color: #666666;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.banner .con_tab span:hover{
+    color: #2577e3;
+    border-bottom: 2px solid #2577e3;
+}
+.banner .form_tab>span:hover+.banner_angle{
+    border: solid;
+    border-color: #2577e3 #fff #fff #fff;
+    border-width: 4px 4px 0px 4px;
+    position: absolute;
+    left: 50px;
+    top: 40px;
+}
+.banner .form_tab{
+    float: left;
+    
+}
+.banner form{
+    left: 48px;
+    top: 56px;
+    width: 385px;
+    height: 30px;
+    position: absolute;
+}
+.banner form
+.banner .con_tab span:hove+form{
+    left: 48px;
+    top: 56px;
+    width: 385px;
+    height: 30px;
+    display: block;
+    
 }
