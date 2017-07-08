@@ -10,6 +10,32 @@ html,body{
 }
 
 /*nav 样式*/
+.nav_logo{
+    height: 66px;
+    background: url("./image/logo.png") no-repeat;
+    position: relative;
+    top: 10px;
+}
+.nav_logo>.search{
+    position: absolute;
+    top: 5px;
+    left: 170px;
+}
+.search>input {
+    width: 326px;
+    height: 30px;
+    border:1px solid #8ebefc;
+}
+.nav_logo em{
+    width: 43px;
+    height: 30px;
+    background: url("./image/nav_search.png") no-repeat;
+    border: 1px solid #8ebefc;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    margin: 1px auto;
+}
 .nav_nav{
     height: 40px;
     width: auto;
@@ -114,11 +140,18 @@ html,body{
     z-index: 0;
 }
 /*banner part*/
+.banner_u{
+    width: auto;
+    height: 340px;
+    position: relative;
+    top: 40px;
+    background: url("./image/banner_a.jpg") no-repeat;
+}
 .banner{
     width: 581px;
     height: 294px;
     position: absolute;
-    top: 80px;
+    top: 24px;
 }
 .banner_tab{
     width: 90px;
@@ -139,16 +172,33 @@ html,body{
     background: #fff;
     color: #2577e3;
 }
-.banner .content{
+.banner .content1{
+    width: 491px;
+    height: 294px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index:10;
+    background: #fff;
+}
+
+.banner .content2,.banner .content{
     width: 491px;
     height: 294px;
     position: absolute;
     top: 0;
     right: 0;
     z-index: 0;
+    background: #fff;
+}
+.banner_tab:hover>.content1{
+    z-index: 10;
+}
+.banner_tab:hover>.content2{
+    z-index: 100;
 }
 .banner_tab:hover>.content{
-    z-index: 100;
+    z-index: 500;
 }
 .banner_tab:hover .con_tab{
     width: 453px;
@@ -158,12 +208,12 @@ html,body{
     margin-left: 20px;
     margin-top: 20px;
 }
-.banner_tab:hover .con_tab span{
+.banner_tab:hover .form_tab>span{
     color: #666666;
     font-size: 14px;
     margin-right: 20px;
 }
-.banner .con_tab span:hover{
+.banner .form_tab>span:hover{
     color: #2577e3;
     border-bottom: 2px solid #2577e3;
 }
@@ -176,22 +226,75 @@ html,body{
     top: 40px;
 }
 .banner .form_tab{
-    float: left;
-    
+    float: left; 
 }
+
 .banner form{
-    left: 48px;
+    color: #515151;
+    font-size: 14px;
     top: 56px;
+    position: absolute;
+}
+.banner .form_tab> .info_tab{
+    height: 30px;
+    color: #515151;
+    font-size: 14px;
+    margin-top: 16px;
+    height: 30px;
+}
+.banner .form_tab> .info_tabt{
+    color: #515151;
+    font-size: 14px;
+    position: absolute;
+    top: 106px;
+    left: 279px;
+}
+.banner .con_tab:hove+.info_tab{
+    display: block;
+}
+
+.banner .content1 form>input{
+    height: 30px;
+    position:absolute;
+}
+.banner .teda>input{
     width: 385px;
     height: 30px;
     position: absolute;
+    left: 73px;
 }
-.banner form
-.banner .con_tab span:hove+form{
-    left: 48px;
-    top: 56px;
+.banner .tedb{
+    height: 30px;
+    margin-top: 29px;
+    left: 73px;
+    position: absolute;
+}
+.banner .tedc{
+    position: absolute;
+    left: 326px;
+    margin-top: 29px;
+}
+.banner .tedd{
+    height: 30px;
+    position: absolute;
+    left: 100px;
+    margin-top: 75px;
+}
+.banner .tede>input{
     width: 385px;
     height: 30px;
-    display: block;
-    
+    position: absolute;
+    left: 73px;
+    margin-top: 97px;
+}
+.banner .tedf{
+    width: 145px;
+    height: 33px;
+    background: #ffb000;
+    border:1px solid #e77c00;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    left: 306px;
+    top: 188px;
 }

@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="./style1.css">
 </head>
 <body>
+    <div class="nav_logo">
+        <div class="search">
+            <input type="text">
+            <div><em></em></div>
+        </div>
+    </div>
     <div class="nav_nav">
         <div class="nav">
             
@@ -145,79 +151,107 @@
         </div>
     </div>
     <div class="nav_tab"></div>
-    <div class="banner">
-        <div class="banner_tab">
-            <span>酒店</span>
-            <div class="content">
-                <div class="con_tab">
-                    <div class="form_tab">
-                        <span>国内酒店</span>
-                        <div class="info_tab">目的地</div>
-                        <div class="info_tab">入住日期</div>
-                        <div class="info_tab">退房日期</div>
-                        <div class="info_tab">酒店级别</div>
-                        <div class="info_tab">关键词</div>
-                        <form method="GET">
-                            <input type="text" name="destination">
-                            <br>
-                            <input type="date"> 
-                            <input type="date">
-                            <select name="select">
-                                <option value="1">不限</option> 
-                                <option value="2" >五星级/豪华</option>
-                                <option value="3">四星级/高档</option>
-                                <option value="4">三星级/舒适</option>
-                                <option value="5">二星级以下/舒适</option>
-                            </select>
-                            <br>
-                            <input type="text" name="keyword">
-                        </form>
-                    </div>
-                    <div class="form_tab">
-                        <span>海外酒店</span>
-                        <form method="GET">
-                            
-                        </form>
-                    </div>
-                    <div class="form_tab">
-                        <span>酒店团购</span>
-    
-                    </div>
-                    <div class="form_tab">
-                        <span>酒店+景点</span>
-                       
-                    </div>
-                    <div class="form_tab">
-                        <span>会议·团房·长住</span>
+    <div class="banner_u">
+        <div class="banner">
+            <div class="banner_tab">
+                <span>酒店</span>
+                <div class="content1">
+                    <div class="con_tab">
+                        <div class="form_tab">
+                            <span>国内酒店</span>
+                            <div class="info_tab">目的地</div>
+                            <div class="info_tab">入住日期</div>
+                            <div class="info_tabt">退房日期</div>
+                            <div class="info_tab">酒店级别</div>
+                            <div class="info_tab">关键词</div>
+                            <form method="GET">
+                                <div class="teda"><input type="text" name="destination" ></div>
+                                <br>
+                                <div class="tedb"><input type="date"></div> 
+                                <div class="tedc"><input type="date"></div>
+                                <div class="tedd"><select name="select">
+                                    <option value="1">不限</option> 
+                                    <option value="2" >五星级/豪华</option>
+                                    <option value="3">四星级/高档</option>
+                                    <option value="4">三星级/舒适</option>
+                                    <option value="5">二星级以下/舒适</option>
+                                </select>
+                                </div>
+                                <br>
+                                <div class="tede"><input type="text" name="keyword"></div>
+                                <div class="tedf">搜索</div>
+                            </form>
+                        </div>
+                        <div class="form_tab">
+                            <span>海外酒店</span>
                         
+                        </div>
+                        <div class="form_tab">
+                            <span>酒店团购</span>
+        
+                        </div>
+                        <div class="form_tab">
+                            <span>酒店+景点</span>
+                        
+                        </div>
+                        <div class="form_tab">
+                            <span>会议·团房·长住</span>
+                            
+                        </div>
+                        <div class="banner_angle"></div>
                     </div>
-                    <div class="banner_angle"></div>
                 </div>
             </div>
-        </div>
-        <div class="banner_tab">
-            <span>机票</span>
-            <div class="content"></div>
-        </div>
-        <div class="banner_tab">
-            <span>自由行</span>
-            <div class="content"></div>
-        </div>
-        <div class="banner_tab">
-            <span>旅游</span>
-            <div class="content"></div>
-        </div>
-        <div class="banner_tab">
-            <span>火车</span>
-            <div class="content"></div>
-        </div>
-        <div class="banner_tab">
-            <span>用车</span>
-            <div class="content"></div>
-        </div>
-        <div class="banner_tab">
-            <span>门票</span>
-            <div class="content"></div>
+            <div class="banner_tab">
+                <span>机票</span>
+                <div class="content2">
+                    <div class="con_tab">
+                        <div class="form_tab">
+                            <span>国内机票</span>
+                            <div class="info_tab">航程类型</div>
+                            <div class="info_tab">
+                                <span>出发城市</span>
+                                <span>退房日期</span>
+                            </div>
+                            <div class="info_tab">到达城市</div>
+                            <div class="info_tab">高级搜索</div>
+                            <form method="GET">
+                                <input type="radio" name="voyagev_type" value="1">单程
+                                <input type="radio" name="voyagev_type" value="2">往返
+                                <input type="radio" name="voyagev_type" value="3">多程
+                            </form>
+                        </div>
+                        <div class="form_tab">
+                            <span>国际机票</span>
+                        
+                        </div>
+                        <div class="form_tab">
+                            <span>发现低价</span>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner_tab">
+                <span>自由行</span>
+                <div class="content"></div>
+            </div>
+            <div class="banner_tab">
+                <span>旅游</span>
+                <div class="content"></div>
+            </div>
+            <div class="banner_tab">
+                <span>火车</span>
+                <div class="content"></div>
+            </div>
+            <div class="banner_tab">
+                <span>用车</span>
+                <div class="content"></div>
+            </div>
+            <div class="banner_tab">
+                <span>门票</span>
+                <div class="content"></div>
+            </div>
         </div>
     </div>
 </body>
