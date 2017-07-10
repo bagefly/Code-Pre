@@ -122,7 +122,7 @@ html,body{
 .left_bear,.right_bear{
     width: 70px;
     height: 76px;
-    border:  2px solid #0f0f0f;
+    background: #fff;
     position: absolute;
     top: 170px;
 }
@@ -132,11 +132,105 @@ html,body{
 .right_bear{
     right: 60px;
 }
-.left_bear .up,.right_bear .down{
+.middle {
     width: 70px;
-    height: 38px;
-    width: 70px;
-    height: 38px;
-    border-bottom: 2px solid;
-
+    height: 3px;
+    background: #0f0f0f;
+    top: 34px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: 0 auto;
+}
+.left_bear .up,.right_bear .up{
+    border: 2px solid;
+}
+.left_bear .down,.right_bear .down{
+    border: 2px solid;
+}
+.left_bear .up{
+    border-width: 6px 0px 0px 66px;
+    border-top-color: white;
+}
+.left_bear .down{
+    border-width: 6px 66px 0px 0px;
+    border-right-color: white;
+    position: absolute;
+    top: 60px;
+}
+.right_bear .up{
+    border-width: 6px 66px 0px 0px;
+    border-top-color: white;
+}
+.right_bear .down{
+    border-width: 6px 0px 0px 66px;
+    border-left-color: white;
+    position: absolute;
+    top: 60px;
+}
+.neck{
+    width:216px;
+    height: 30px;
+    background: #a42b00;
+    border: 2px solid;
+    border-radius: 15px 15px 15px 15px;
+    position: absolute;
+    top: 315px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.bell{
+    width: 40px;
+    height: 40px;
+    background: #ccc515;
+    border: 2px solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 330px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.bell .one{
+    width: 40px;
+    height: 2px;
+    background: #0f0f0f;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.bell .two{
+    width: 42px;
+    height: 2px;
+    background: #0f0f0f;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.bell .three{
+    width: 12px;
+    height: 12px;
+    background: #0f0f0f;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto
+}
+.bell .four{
+    width: 2px;
+    height: 12px;
+    background: #0f0f0f;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto
 }
