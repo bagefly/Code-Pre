@@ -1,0 +1,55 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+/*style*/
+
+.box{
+    width: 200px;
+    height:200px;
+    background: #0f0f0f;
+}
+.box *{
+    width:50%;
+    height: 50%;
+    float: left;
+    transition: all 0.5s;
+}
+.bba{
+    background: #f00;
+    
+}
+.bbb{
+    background: #ff0;
+}
+.bbc{
+    background: #00f;
+}
+.bbd{
+    background: #0f0;
+}
+.box .bba:hover{
+    border-radius: 100% 0 0 0 ;
+}
+.box .bbb:hover{
+    border-radius: 0 100% 0 0 ;
+}
+.box .bbc:hover{
+    border-radius: 0 0 0 100% ;
+}
+.box .bbd:hover{
+    border-radius: 0 0 100% 0 ;
+}
+
+.square{
+    width:480px;
+    height: 270px;
+    background: url("globe.jpg"),url("yellow.jpg");
+    border: 20px solid rgba(243, 219, 220, 6);
+    background-size: 200px auto;
+    background-blend-mode: luminosity;
+    /*background-origin:border-box;
+    background-clip: content-box;*/
+}
+

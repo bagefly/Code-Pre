@@ -1,0 +1,44 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+/*style*/
+
+/*.clear-float::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.contanier{
+    width: 220px;
+
+}
+.box{
+    width: 90px;
+    height: 80px;
+    float: left;
+}
+.box .img{
+    width: 60px;
+    height: 60px;
+    background: #f00;
+    float: left;
+}
+.box .description{
+    width: 30px;
+    height: 60px;
+    background: #ff0;
+    float: left;
+}
+.contanier .box:nth-child(4n-2)>*,.contanier .box:nth-child(4n-1)>*{
+    float: right;
+}*/
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background: #f0f;
+}
+.box1:hover{
+    border-radius: 50px 0 50px 0
+}

@@ -1,0 +1,142 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+
+/*style*/
+.cat{
+    width: 370px;
+    position: relative;
+}
+.headd{
+    width: 370px;
+    height: 330px;
+    background: #09b8ed;
+    border-radius: 50% 50% 50% 50%;
+    border:2px solid #406f79;
+}
+.face{
+    width: 306px;
+    height: 220px;
+    background: #fff;
+    border-radius: 50% 50% 50% 50%;
+    border: 2px solid #0f0f0f;
+    position: absolute;
+    top: 88px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.eye{
+    width: 214px;
+    height: 120px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.eye .left_eye{
+    width: 104px;
+    height: 120px;
+    background: #fff;
+    border: 2px solid #0f0f0f;
+    border-radius: 45px;
+}
+.eye .right_eye{
+    width: 104px;
+    height: 120px;
+    background: #fff;
+    border: 2px solid #0f0f0f;
+    border-radius: 45px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.eye .small{
+    width: 22px;
+    height: 22px;
+    background: #0f0f0f;
+    position: absolute;
+    bottom: 40px;
+    border-radius: 50% 50% 50% 50%;
+}
+.left_eye>.small{
+    left: 70px;
+}
+.right_eye>.small{
+    left: 15px;
+    top: 55px;
+}
+.nose{
+    width:40px;
+    height: 40px;
+    background: #cc3102;
+    border: 2px solid #0f0f0f;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    top: 138px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.small_nose{
+    width:10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    top: 12px;
+    right: 1px;
+    box-shadow: -1px 2px 1px 1px #fff;
+}
+.mouth{
+    width: 228px;
+    height: 112px;
+    position: absolute;
+    top: 186px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.left_mouth{
+    width: 112px;
+    height: 112px;
+    background: #fff;
+    border: 2px solid #0f0f0f;
+    border-top: none;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    border-radius: 0 0 0 100%;
+}
+.right_mouth{
+    width: 112px;
+    height: 112px;
+    background: #fff;
+    border: 2px solid #0f0f0f;
+    border-top: none;
+    border-radius: 0 0 100% 0;
+    position: absolute;
+    right: 0;
+}
+.left_bear,.right_bear{
+    width: 70px;
+    height: 76px;
+    border:  2px solid #0f0f0f;
+    position: absolute;
+    top: 170px;
+}
+.left_bear{
+    left: 60px;
+}
+.right_bear{
+    right: 60px;
+}
+.left_bear .up,.right_bear .down{
+    width: 70px;
+    height: 38px;
+    width: 70px;
+    height: 38px;
+    border-bottom: 2px solid;
+
+}
