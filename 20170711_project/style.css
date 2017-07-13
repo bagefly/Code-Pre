@@ -88,7 +88,10 @@ html,body{
     height: 166px;
     background: #fff;
     float: left;
-    position: relative;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 .cup .logo{
     width: 110px;
@@ -104,7 +107,7 @@ html,body{
 .cup .search_tab{
     width: 52px;
     height: 30px;
-    color: #f22e00;
+    color: #ff4400;
     font-size: 12px;
     text-align: center;
     display: inline-block;
@@ -133,7 +136,7 @@ html,body{
 .search_box input{
     width: 504px;
     height: 40px;
-    border: 2px solid #f22e00;
+    border: 2px solid #ff5500;
     position: absolute;
     left: 60px;
     z-index: 0;
@@ -154,8 +157,8 @@ html,body{
     font-weight:bold;
     text-align: center;
     display: block;
-    background: #f22e00;
-    border: 2px solid #f22e00;
+    background: #ff5500;
+    border: 2px solid #ff5500;
     position: absolute;
     top: 0;
     left: 567px;
@@ -164,7 +167,7 @@ html,body{
 .search_tab:hover {
     color: #fff;
     font-weight: bold;
-    background: #f22e00;
+    background: #ff5500;
 }
 .search_tab.tab2:hover{
     background: #c40000;
@@ -191,7 +194,7 @@ html,body{
     width: 117px;
     height:114px;
     font-size:12px;
-    color: #f22e00; 
+    color: #ff5500; 
     position: absolute;
     margin-top: 40px;
     margin-left: 1018px;
@@ -240,11 +243,11 @@ html,body{
     font-size:12px;
     color: #6c6c6c;
     position: absolute;
-    top: 164px;
+    top: 122px;
     left: 298px;
 }
 .hotsale>:nth-child(3){
-    color: #f22e00;
+    color: #ff4400;
 }
 .hotsale *{
     margin-right: 6px;
@@ -258,18 +261,18 @@ html,body{
     position: absolute;
 }
 .hotsale *:hover{
-    color: #f22e00;
+    color: #ff4400;
 }
 .main_market{
-    width :192px;
+    width :190px;
     height: 36px;
-    background: #f22e00;
+    background: #ff6537;
     color: #fff;
     font-weight: bold;
     display: inline-block;
     line-height: 36px;
     position: absolute;
-    top: 190px;
+    top: 150px;
 }
 .main_market .em{
     width: 15px;
@@ -279,13 +282,20 @@ html,body{
     margin-top: 10px;
     margin-right: 8px;
 }
+.hotplace {
+    width: 850px;
+    text-align: center;
+    display: inline-block;
+    line-height: 28px;
+}
 .hotplace .hotp1{
     width: 226px;
-    color: #f22e00;
+    height: 28px;
+    color: #ff6537;
     font-weight: bold;
     font-size: 16px;
     position: absolute;
-    top: 198px;
+    top: 152px;
     left: 212px;
 }
 .hotplace .hotp1 *{
@@ -293,17 +303,22 @@ html,body{
 }
 .hotplace .hotp2{
     width: 608px;
+    height: 28px;
     color: #3c3c3c;
     font-weight: bold;
     font-size: 14px;
     position: absolute;
-    margin-top: 158px;
+    margin-top: 138px;
     left: 448px;
 }
 .hotplace .hotp2 *{
     margin-right: 14px;
 }
-
+.hotplace span:hover{
+    color: #fff;
+    background: #f22e00;
+    border-radius: 10px;
+}
 /*banner_nav part*/
 .banner_nav{
     background: #f5f5f5;
@@ -312,7 +327,115 @@ html,body{
 }
 .product{
     width: 904px;
-    height: 522px;
+    height: 520px;
     background: #0f0;
     position: absolute;
+}
+.product .kind{
+    width: 190px;
+    height: 30px;
+    background: #ff6537;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.product .em1{
+    width: 17px;
+    height: 15px;
+    float: left;
+}
+.product .em2{
+    width: 17px;
+    height: 15px;
+    float: right;
+    position: relative;
+    margin-top: 6px;
+    background: url("./images/17.png") no-repeat;
+}
+.product .kind span{
+    float: left;
+}
+.tab.clothes .em1{
+    background: url("./images/tblist_22.png") no-repeat;
+}
+.tab.bag .em1{
+    background: url("./images/tblist_30.png") no-repeat;
+}
+.tab.toy .em1{
+    background: url("./images/tblist_34.png") no-repeat;
+}
+.tab.tv .em1{
+    background: url("./images/tblist_37.png") no-repeat;
+}
+.tab.beauty .em1{
+    background: url("./images/tblist_40.png") no-repeat;
+}
+.tab.glasses .em1{
+    background: url("./images/tblist_43.png") no-repeat;
+}
+.tab.sport .em1{
+    background: url("./images/tblist_45.png") no-repeat;
+}
+.tab.game .em1{
+    background: url("./images/tblist_47.png") no-repeat;
+}
+.tab.food .em1{
+    background: url("./images/tblist_50.png") no-repeat;
+}
+.tab.flower .em1{
+    background: url("./images/tblist_53.png") no-repeat;
+}
+.tab.house .em1{
+    background: url("./images/tblist_55.png") no-repeat;
+}
+.tab.furniture .em1{
+    background: url("./images/tblist_58.png") no-repeat;
+}
+.tab.car .em1{
+    background: url("./images/tblist_60.png") no-repeat;
+}
+.tab.office .em1{
+    background: url("./images/tblist_63.png") no-repeat;
+}
+.tab.goods .em1{
+    background: url("./images/tblist_68.png") no-repeat;
+}
+.tab.study .em1{
+    background: url("./images/tblist_47.png") no-repeat;
+}
+.product .little_ad{
+    width: 190px;
+    height: 40px;
+    background: url("./images/tblb_71.png") no-repeat;
+}
+.product .content{
+    width: 714px;
+    height: 518px;
+    border: 2px solid #ff5500;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.tab:hover>.kind{
+    background: #f94a14;
+}
+.tab.clothes:hover .em1{
+    background: url("./images/1.png") no-repeat;
+}
+
+
+.conclothes{
+    width: 456px;
+}
+.conclothes .womantab .up {
+    width: 456px;
+    position: relative;
+}
+.womantab .em3{
+    background: url("./images/tb_woman.jpg") no-repeat;
+}
+.womantab .up>span{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
