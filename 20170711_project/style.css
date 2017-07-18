@@ -101,7 +101,7 @@ html,body{
     position: relative;
     float: left;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 76px;
 }
 .cup .search_tab{
     width: 52px;
@@ -174,7 +174,6 @@ html,body{
     height:114px;
     font-size:12px;
     color: #ff5500; 
-    position: absolute;
     margin-top: 40px;
     margin-left: 1018px;
 }
@@ -185,10 +184,7 @@ html,body{
     float: left;
 }
 .qrcode span{
-    left: 0;
-    right: 0;
-    position: absolute;
-    margin: 0px auto; 
+    margin-left: 10px;
     text-align: center;
 }
 .qrcode .code{
@@ -201,19 +197,19 @@ html,body{
 .tb_search .em1{
     width: 14px;
     height: 14px;
-    background: url("./images/tb_03_03.png") no-repeat;
+    background: url(./images/tb_03_03.png) no-repeat;
     position: absolute;
-    top: 86px;
-    left: 323px;
+    top: 45px;
+    left: 15px;
     z-index: 100;
 }
 .tb_search .em2{
     width: 17px;
     height: 14px;
-    background: url("./images/tb_03_04.png") no-repeat;
+    background: url(./images/tb_03_04.png) no-repeat;
     position: absolute;
-    top: 86px;
-    left: 784px;
+    top: 45px;
+    left: 470px;
     z-index: 100;
 }
 .hotsale{
@@ -222,22 +218,14 @@ html,body{
     font-size:12px;
     color: #6c6c6c;
     position: absolute;
-    top: 122px;
-    left: 298px;
+    top: 185px;
+    margin-left: 192px;
 }
 .hotsale>:nth-child(3){
     color: #ff4400;
 }
 .hotsale *{
     margin-right: 6px;
-}
-.hotsale>:first-child{
-    left: 0;
-    position: absolute;
-}
-.hotsale>:last-child{
-    right: -20px;
-    position: absolute;
 }
 .hotsale *:hover{
     color: #ff4400;
@@ -250,8 +238,7 @@ html,body{
     font-weight: bold;
     display: inline-block;
     line-height: 36px;
-    position: absolute;
-    top: 150px;
+    margin-left: 28px;
 }
 .main_market .em{
     width: 15px;
@@ -266,6 +253,9 @@ html,body{
     text-align: center;
     display: inline-block;
     line-height: 28px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 18px;
 }
 .hotplace .hotp1{
     width: 226px;
@@ -273,9 +263,7 @@ html,body{
     color: #ff6537;
     font-weight: bold;
     font-size: 16px;
-    position: absolute;
-    top: 152px;
-    left: 212px;
+    float: left;
 }
 .hotplace .hotp1 *{
     margin-right: 24px;
@@ -286,9 +274,7 @@ html,body{
     color: #3c3c3c;
     font-weight: bold;
     font-size: 14px;
-    position: absolute;
-    margin-top: 138px;
-    left: 448px;
+    float: left;
 }
 .hotplace .hotp2 *{
     margin-right: 14px;
@@ -302,7 +288,8 @@ html,body{
 .banner_nav{
     background: #f5f5f5;
     position: absolute;
-    top: 226px;
+    top: 250px;
+    left: 28px;
 }
 .product{
     width: 904px;

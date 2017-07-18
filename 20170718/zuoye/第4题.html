@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+        var Y =prompt("您工作满几年");
+        var C =prompt("请输入您的月薪");
+        if(Y < 1){
+            if(C>8000&&C<10000){
+                alert("您的年终奖是"+1.2*C);
+            }else{
+                alert("您的年终奖是"+C);
+            }
+        }else if(Y == 1){
+            if(C>10000&&C<12000){
+                alert("您的年终奖是"+1.7*C);
+            }else{
+                alert("您的年终奖是"+1.5*C);
+            }
+        }else if(Y == 2){
+            if(C>12000){
+                alert("您的年终奖是"+3.2*C);
+            }else{
+                alert("您的年终奖是"+3*C);
+            }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

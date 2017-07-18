@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>体格检测评估</title> 
+    <script type=text/javascript>    
+        // var str = prompt("请输入后红包口令~领取现金~巨款")
+        // if (str == "HTML") {
+        //     alert("红包口令正确~奖励1元大款~")
+        // }else if (str != "HTML") {
+        //     alert("红包口令错误~谢谢参与~")
+        // }
+
+        var W =prompt("请输入您的体重(kg)");
+        var H =prompt("请输入您的身高(m)");
+        var BMI = W/Math.pow(H,2);
+        if(BMI<18.5){
+            alert("您的体重过轻");
+        }else if(BMI<25){
+            alert("您的体重正常");
+        }else if(BMI<28){
+            alert("您的体重过重");
+        }else if(BMI<32){
+            alert("您的体重肥胖");
+        }else{
+            alert("您的体重胖忧，请坚持健身。");
+        }                
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
