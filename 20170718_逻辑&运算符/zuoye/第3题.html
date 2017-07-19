@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <script type="text/javascript">
-        var year =prompt("请你输入一个年份");
-        if(year>=100){
-            if(year%4==0){
+        var year =parseInt(prompt("请你输入一个年份"));
+        if(year % 100 ==0){
+            if(year % 400 == 0){
                 alert("该年份是闰年");
             }else{
                 alert("该年份不是闰年");
             }
         }else{
-            if(year%4==0){
+            if(year % 4 == 0){
                 alert("该年份是闰年");
             }else{
                 alert("该年份不是闰年");

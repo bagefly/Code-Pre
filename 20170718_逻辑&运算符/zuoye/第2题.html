@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <script>    
-        var a =prompt("请输入一个数字")
-        var b =prompt("请再输入一个数字")
-        if(a%2==0&&b%2==0){
+        var a =parseInt(prompt("请输入一个数字"));
+        var b =parseInt(prompt("请再输入一个数字"));
+        if(a % 2 == 0 && b % 2 == 0 || a % 2 != 0 && b % 2 != 0 ){
             alert("你好，这两个数的奇偶性相同。");
         }else{
             alert("你好，这两个数的奇偶性不同。");

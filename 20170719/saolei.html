@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+        var shangxian = 100;
+        var xiaxian = 1;
+        while(true){
+        var a = parseInt(prompt("请输入0~100之间的数字，范围"+ xiaxian + "到" + shangxian));
+            var dilei = parseInt(Math.random()*100+1);
+            if(a > xiaxian && a < shangxian){
+
+                if(a > dilei ){
+                    var a = shangxian;
+                }else if(a <dilei){
+                    var a = xiaxian;
+                }else if( a == dilei ){
+                    alert("恭喜你踩到雷")
+                    break;
+                }
+            }
+            else{
+                alert("抱歉，您输入的数字不再范围内，请重新输入。");
+            }
+        }
+            
+</script>
+</head>
+<body>
+    
+</body>
+</html>
