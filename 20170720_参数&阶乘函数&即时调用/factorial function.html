@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+        //阶乘函数，接收一个参数，返回这个数字的阶乘
+        function jiecheng(a){
+            var s = 1;
+            for(var i =1 ;i <= a ; i++){
+                s =s * i;
+            }
+            return s;
+        }
+        // console.log(jiecheng(5));
+
+        var sum = 0;
+        for(var i =1; i <= 10; i++){
+            sum += jiecheng(i);
+        }
+        console.log(sum);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

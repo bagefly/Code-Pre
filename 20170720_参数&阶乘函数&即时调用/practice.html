@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+    //函数是一个引用类型
+        //基础类型为赋的值要复制
+        var a = 6;
+        var b = a;
+        b += 2;
+        console.log(b);
+        console.log(a);
+
+
+        var a = function(){
+            alter("我是一个函数，我执行了哈~~");
+        }
+
+        var b = a;
+        //就是把匿名函数的地址给了b
+
+        b.haha = 1;
+        //给b添加一个属性
+
+        console.log(a.haha);
+        //输出a的haha
+
+        b.haha++;
+        b.haha++;
+        b.haha++;
+        console.log(a.haha);
+        //a的属性和b的属性同步改变，因为都指向同一对象哦
+
+        //函数预解析
+        fun();
+        // function fun(){
+        //     alert(1);
+        // }
+
+        var fun = function(){
+            alert(1);
+        }
+        
+
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

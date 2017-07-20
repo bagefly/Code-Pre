@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+        // function fun(a,b){
+        //     console.log("这是你第"+a+"次说要打我"+b+"巴掌");
+        // }
+        // fun(999,3);
+
+
+        function yueshugeshu(m){
+            var count=0;
+            
+            for(var i=1; i <= m; i++){
+                if(m % i ==0){
+                    count++;
+                }
+            }
+            return count;
+        }
+        // console.log(yueshugeshu(6));
+
+        function iszhishu(m){
+            if(yueshugeshu(m) == 2){
+                return true;
+            }else{
+                return false;
+            }
+        }
+        // console.log(iszhishu(3));
+        // var oushu =parseInt(prompt("请输入一个大于2的偶数"))
+        // for(var i =1; i < oushu; i++){
+        //     if(iszhishu(i) && iszhishu(oushu-i)){
+        //         console.log(oushu+"可以拆分成一个质数"+ i + "与另一个质数" + (oushu-i) + "的和");
+        //     }
+        // }
+
+        for(var i=1;i <= 1000; i++){
+            for(var j=2; j < i;j++){
+                if(i % 2 ==0 && iszhishu(j) && iszhishu(i-j)){
+                    console.log(i+"可以拆分成"+j+"与"+(i-j)+"的和");
+                }
+            }
+            continue;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
