@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+        function jiecheng(i){
+            var s = 1
+            for(var i = 100; i <= 999 ; i++){
+                s = s * i;
+            }
+            return s;
+        }
+
+        for(var i = 100; i <= 999; i++){
+            var a=jiecheng(parseInt(i/100));
+            var b=jiecheng(parseInt(i/10) % 10);
+            var c=jiecheng(i % 10);
+            if((a + b + c) == i){
+                console.log(i);
+            }
+        }
+     
+    
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

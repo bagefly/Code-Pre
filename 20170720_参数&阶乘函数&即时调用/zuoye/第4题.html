@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+        function zhishu(n){
+            var t=true;
+            for(var i=2;i<n;i++){
+                if(n%i==0){
+                   t=false;
+                    break;
+                }
+            }
+            return t;
+        }
+        function yueshuhe(n){
+            var sum=0;
+            for(var i=1;i<n;i++){
+                if(n%i==0) sum+=i;
+            }
+            return sum;
+        }
+        for(var i=1;i<=3000;i++){
+            if(zhishu(i)) continue;
+            for(var j=1;j<=3000;j++){
+                if(i==j) break;
+                if(zhishu(j)) continue;
+                if(yueshuhe(i)==j&&yueshuhe(j)==i){
+                    console.log(i+"和"+j+"是亲密数");
+                    break;
+                }
+            }
+        }
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

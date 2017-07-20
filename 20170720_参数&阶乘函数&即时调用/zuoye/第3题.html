@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+        function rev(i){
+            var s=0;
+            do
+            {
+                s+=i%10;
+                i=parseInt(i/10);
+                if(i==0) break;
+                s*=10;
+            }while(true)
+            return s;
+        }
+        console.log(rev(parseInt(prompt("请输入一个数"))));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
