@@ -1,0 +1,80 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+/*nav_banner part*/
+
+.clear-float::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.nav {
+    width: 900px;
+    height: 320px;
+    margin: 0 auto;
+    background: #f5f9fc;
+    position: relative;
+}
+.nav .home{
+    float: right;
+    color: #666666;
+    font-size: 12px;
+    margin-top: 16px;
+    margin-right:20px;
+}
+.nav .home span:hover{
+    color:#669be5;
+}
+.nav .logo{
+    width: 270px;
+    height: 44px;
+    font: 18px "Simsun";
+    background: url("../images/logo.png") no-repeat;
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 30px;
+}
+.nav .logo span{
+    display: inline-block;
+    line-height: 44px;
+    position: absolute;
+    right: 0;
+}
+.nav_menu{
+    width: 536px;
+    height: 32px;
+    color: #333333;
+    font: 14px "Microsoft Yahei";
+    font-weight: bold;
+    border: 1px solid #bacedf;
+    border-radius: 16px;
+    position: absolute;
+    top: 52px;
+    left: 345px;
+}
+.tab_menu{
+    float: left;
+    margin-right: 24px;
+    text-align: center;
+    line-height: 32px;
+}
+.nav .tab{
+    height: 28px;
+}
+.nav .tab:hover{
+    border-bottom: 4px solid #669be5;
+}
+.nav_menu>*:nth-child(1){
+    margin-left: 34px;
+}
+.nav .content{
+    width: 56px;
+    height: 128px;
+    border:1px solid #bacedf;
+    border-top: none;
+    display: none;
+}
+.nav .tab:hover+.content{
+    display: block;
+}
