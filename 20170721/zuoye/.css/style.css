@@ -57,10 +57,9 @@ html,body{
     float: left;
     margin-right: 24px;
     text-align: center;
-    line-height: 32px;
 }
 .nav .tab{
-    height: 28px;
+    line-height: 30px;
 }
 .nav .tab:hover{
     border-bottom: 4px solid #669be5;
@@ -69,12 +68,112 @@ html,body{
     margin-left: 34px;
 }
 .nav .content{
-    width: 56px;
-    height: 128px;
+    width: 54px;
+    height: 96px;
     border:1px solid #bacedf;
     border-top: none;
     display: none;
 }
 .nav .tab:hover+.content{
     display: block;
+}
+.nav img{
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 15px;
+}
+.info{
+    width: 211px;
+    height: 691px;
+    margin-left: 15px;
+    border: 1.5px solid #e7ecf1;
+    border-radius: 8px;
+    border-right-color: rgba(188, 183, 183, 0.6);
+    float: left;
+}
+.info>*:nth-child(2){
+    margin-top: 20px;
+}
+.info .kind{
+    width: 124px;
+    height:36px;
+    margin-top: 15px;
+    margin-left: 22px;
+}
+.info>*:nth-child(2) .kind{
+    float: left;
+}
+.info .kind span:nth-child(1){
+    font-size: 20px;
+    font-weight: bold;
+}
+.info .kind span:nth-child(3){
+    font-size: 12px;
+    color: #3399cc;
+    line-height: 12px;
+    display: inline-block;
+}
+.info .product{
+    height: 425px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.info .platform{
+    width: 162px;
+    height: 26px;
+    border-bottom: 1px solid #dae7ee;
+    font-size: 12px;
+    display: inline-block;
+    line-height: 27px;
+    position: relative;
+}
+.info .platform span{
+    margin-left: 10px;
+}
+.info .angle{
+    width: 0;
+    border-width: 2px 0px 2px 4px;
+    border-top:solid #fff;
+    border-right:solid #fff;
+    border-bottom:solid #fff;
+    border-left:solid #fff;
+    position: absolute;
+    top: 11px;
+    right: 7px;
+}
+.info .platform:hover{
+    color: #fff;
+    font-weight: bold;
+    background: #2f5c9d;
+    border-radius: 13px;
+}
+.info .platform:hover .angle{
+    border-top:solid #2f5c9d;
+    border-right:solid #2f5c9d;
+    border-bottom:solid #2f5c9d;
+    border-left:solid #fff;
+}
+.info .content{
+    font-size: 12px;
+    margin-top: 22px;
+    margin-left: 22px;
+    float: left;
+}
+.info .content span:nth-child(3),.info .content span:nth-child(7){
+    margin-left: 40px;
+}
+.info .phone{
+    width: 74px;
+    height: 46px;
+    float: left;
+}
+.banner{
+    width: 900px;
+    margin: 0 auto;
+}
+.introduction{
+    width: 660px;
+    height: 691px;
+    border: 1.5px solid #e7ecf1;
+    float: left;
 }
