@@ -1,0 +1,192 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+/*nav style*/
+.nav{
+    
+    height: 506px;
+    background: url("../images/anzhengback.jpg") no-repeat;
+    position: relative;
+
+}
+.nav_menu{
+    width: 1024px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.nav_menu .logo{
+    width: 294px;
+    height: 40px;
+    background: url("../images/anzheng_logo.png") no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.nav .menu{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    color: #fff;
+}
+.nav .menu span{
+    margin-right: 22px;
+}
+.nav .menu>:nth-child(1){
+    margin-right: 42px;
+}
+.menu span:hover{
+    color: #e60012;
+}
+.nav .info{
+    width: 344px;
+    height: 344px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.nav .lineleft{
+    width: 46px;
+    height: 46px;
+    border-top: 8px solid #fff;
+    border-left: 8px solid #fff;
+    position: absolute;
+}
+.nav .lineright{
+    width: 118px;
+    height: 46px;
+    border-top: 8px solid #fff;
+    border-right: 8px solid #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.nav .lineright>.line{
+    width: 61px;
+    height: 8px;
+    background: url("../images/whiteline.png") no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.info .text{
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 32px;
+}
+.text>:nth-child(1){
+    color: #b22423;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', Arial;
+}
+.text>:nth-child(2){
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Arial;
+}
+.text>:nth-child(4),.text>:nth-child(5){
+    font-family: "SimSun",Arial;
+    font-size: 14px;
+    position: absolute;
+}
+.text>:nth-child(4){
+    top: 40px;
+    left: 62px;
+}
+.text>:nth-child(5){
+    top: 40px;
+    left: 130px;
+}
+.info img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 80px;
+    left: 66px;
+}
+.introduction{
+    position: relative;
+}
+.intro{
+    width: 1024px;
+    height: 416px;
+    border-bottom: solid #cccccc;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.introduction img{
+    position: absolute;
+    top: 90px;
+    left: 0px;
+}
+.intro .frame{
+    width: 145px;
+    height: 264px;
+    border: 1px solid #d58a83;
+    border-radius: 4px;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+.intro .circle{
+    width: 19px;
+    height: 19px;
+    background: url("../images/circle.png") no-repeat;
+    position: absolute;
+    top: 160px;
+    left: 133px;
+}
+.intro .corname{
+    color: #666666;
+    background: #fff;
+    position: absolute;
+    top: 148px;
+    left: 156px;
+}
+.intro .corname>:nth-child(1){
+    color: #b22423;
+    font-size: 28px;
+    font-family: "Microsoft YaHei";
+}
+.intro .about{
+    width: 640px;
+    height: 210px;
+    position: absolute;
+    border-top: 1px dashed #dbdada;
+    font-size: 14px;
+    font-family: "SimSun",Arial;
+    top: 90px;
+    right: -25px;
+}
+.about>:nth-child(1){
+    position: absolute;
+    top: 20px;
+}
+.about>:nth-child(3){
+    position: absolute;
+    top: 44px;
+}
+.about>:nth-child(5){
+    position: absolute;
+    top: 64px;
+}
+.about>:nth-child(7){
+    position: absolute;
+    top: 104px;
+}
+.about>:nth-child(9){
+    position: absolute;
+    top: 124px;
+}
+.about>:nth-child(11){
+    position: absolute;
+    top: 144px;
+}
