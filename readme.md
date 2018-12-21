@@ -23,6 +23,6 @@
 + js函数模型
 + js常见模型和经典模型
 
-仓库地址： https://github.com/bagefly/Code-Pre
+仓库地址： [https://github.com/bagefly/Code-Pre](https://github.com/bagefly/Code-Pre) <br>
 
 内容参考： [MDN web docs](https://developer.mozilla.org/zh-CN/docs/Web/Guide)
